@@ -1,5 +1,5 @@
 {
-"homepage": "https://mhd-humraz.github.io/your-repo-name",
+"homepage": "https://mhd-humraz.github.io/To-do-list",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
