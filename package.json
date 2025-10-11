@@ -1,4 +1,10 @@
 {
+"homepage": "https://mhd-humraz.github.io/your-repo-name",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+
   "name": "to-do-list",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +17,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
